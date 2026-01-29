@@ -1,0 +1,12 @@
+[project]
+name = "taxy"
+version = "0.1.0"
+description = "India Tax Regime Comparison System - Compare Old vs New Tax Regime"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+taxy = "main:main"
