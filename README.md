@@ -107,25 +107,6 @@ All configuration is done via the `.env` file. See `.env.example` for detailed d
 - Standard Deduction (₹50K old / ₹75K new)
 - Section 24 - Home Loan Interest (Let-out property)
 
-## Example Output
-
-```
-══════════════════════════════════════════════════════════════════════
-                     INDIA TAX REGIME COMPARISON
-══════════════════════════════════════════════════════════════════════
-
-  PARTICULARS                                 OLD REGIME    NEW REGIME
-  ──────────────────────────────────────── ───────────── ─────────────
-  Gross Salary                               ₹10,451,437   ₹10,451,437
-  Total Exemptions                              ₹807,264       ₹24,000
-  ...
-  TAXABLE INCOME                              ₹9,381,773   ₹10,362,437
-
-  TOTAL TAX PAYABLE                           ₹3,005,324    ₹3,215,722
-
-  ✓ OLD TAX REGIME is better for you!
-    You save ₹210,398 by choosing Old Regime
-```
 
 ## Project Structure
 
