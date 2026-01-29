@@ -46,7 +46,7 @@ Compare **Old Tax Regime vs New Tax Regime** for Indian taxpayers. Calculate eff
 
 ```bash
 # Clone the repository
-git clone https://github.com/pjthepooh/taxy.git
+git clone https://github.com/priyanshujain/taxy.git
 cd taxy
 
 # Install dependencies using uv

@@ -187,7 +187,6 @@ def calculate_gross_salary() -> float:
         v.lta_received +
         v.conveyance_allowance +
         v.special_allowance +
-        v.medical_allowance +
         v.transport_allowance +
         v.children_education_allowance +
         v.hostel_allowance +
@@ -199,7 +198,15 @@ def calculate_gross_salary() -> float:
         v.overtime_pay +
         v.gratuity_received +
         v.leave_encashment_received +
-        v.entertainment_allowance
+        v.entertainment_allowance +
+        # Reimbursements / Perquisites
+        v.fuel_allowance +
+        v.vehicle_maintenance_allowance +
+        v.books_periodicals_allowance +
+        v.mobile_telephone_allowance +
+        v.broadband_allowance +
+        v.furniture_computer_allowance +
+        v.other_reimbursements
     )
 
     # Employer contributions (taxable portion if exceeds limit)

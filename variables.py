@@ -63,8 +63,16 @@ conveyance_actual_expenses: float = get_float("CONVEYANCE_ACTUAL_EXPENSES")
 
 # Special Allowances
 special_allowance: float = get_float("SPECIAL_ALLOWANCE")  # Fully taxable
-medical_allowance: float = get_float("MEDICAL_ALLOWANCE")  # Fully taxable
 transport_allowance: float = get_float("TRANSPORT_ALLOWANCE")  # For commute
+
+# Reimbursements / Perquisites (Company provides these against actual expenses)
+fuel_allowance: float = get_float("FUEL_ALLOWANCE")  # Fuel/Petrol expenses
+vehicle_maintenance_allowance: float = get_float("VEHICLE_MAINTENANCE_ALLOWANCE")  # Vehicle repair
+books_periodicals_allowance: float = get_float("BOOKS_PERIODICALS_ALLOWANCE")  # Books & periodicals
+mobile_telephone_allowance: float = get_float("MOBILE_TELEPHONE_ALLOWANCE")  # Mobile/phone
+broadband_allowance: float = get_float("BROADBAND_ALLOWANCE")  # Internet/broadband
+furniture_computer_allowance: float = get_float("FURNITURE_COMPUTER_ALLOWANCE")  # Furniture/computer
+other_reimbursements: float = get_float("OTHER_REIMBURSEMENTS")  # Any other reimbursements
 
 # For Disabled Employees (Transport Allowance)
 is_disabled: bool = get_bool("IS_DISABLED")  # If True, transport allowance exempt up to Rs 3,200/month
